@@ -37,6 +37,10 @@ p {
     color: #FFCB8E;
 }
 
+.clr {
+    clear: both;
+}
+
 .btn {
     display: inline-block;
     background: #810000;
@@ -47,8 +51,27 @@ p {
 }
 
 .btn:hover {
-     color: #FFCB8E;
-     background: #810955 ;
+     color: #000;
+     background: #FFCB8E ;
+}
+
+.btn-light {
+    color: #FFCB8E;
+    background: #810000;
+}
+.bg-dark {
+    color: #fff;
+    background: #333;
+}
+
+.bg-light {
+    color: #333;
+    background: #fff;
+}
+
+.bg-primary {
+    color: #333;
+    background: #FFCB8E;
 }
 /* Navbar */
 
@@ -109,3 +132,44 @@ p {
 #sweet .sweet-content p {
     font-size: 18px;
 }
+/* Home info start */
+
+#home-info {
+    height: 400px;
+}
+
+#home-info .img-info {
+    float: left;
+    background: url('../img/colors.jpg') no-repeat center center/cover ;
+    width: 50%;
+    min-height: 100%;
+
+}
+#home-info .info-content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+ 
+}
+
+/* Features */
+.box{
+    width: 33.3%; 
+    float: left;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Footer */
+#main-footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 20px;
+
+}
+
+
