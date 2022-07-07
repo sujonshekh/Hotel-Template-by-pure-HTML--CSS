@@ -41,6 +41,13 @@ p {
     clear: both;
 }
 
+/* Large Heading more than h1 */
+.l-heading { font-size: 40px; line-height: 1.2em;}
+/* Padding for top and margin */
+.py-1 {padding: 10px 0;}
+.py-2 {padding: 20px 0;}
+.py-3 {padding: 30px 0;}
+
 .btn {
     display: inline-block;
     background: #810000;
@@ -163,6 +170,25 @@ p {
     text-align: center;
 }
 
+/* About Page */
+#about-info .info-right{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+#about-info .info-right img {
+    display: block;
+    margin: auto;
+    width: 80%;
+    border-radius: 50%;
+
+}
+
+#about-info .info-left {
+    float: left;
+    min-height: 100%;
+    width: 50%;
+}
 /* Footer */
 #main-footer {
     text-align: center;
