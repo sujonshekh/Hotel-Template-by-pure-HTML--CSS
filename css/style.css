@@ -92,7 +92,7 @@ p {
   color: #FFCB8E;
 }
 
-#navbar h1 {
+#navbar .logo {
     float: left;
     padding-top: 20px;
  
@@ -192,7 +192,7 @@ p {
 
 /* Testomonials sections in sweet page */
 #testomonials {
-    height: 600px;
+    height: 100%;
     padding-top: 100px;
     background: url('../img/test-bg.jpg') no-repeat center center/cover;
 

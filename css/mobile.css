@@ -1,0 +1,55 @@
+#navbar .logo {
+    float: none;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#navbar ul, #navbar ul li {
+    float: none;
+}
+#navbar ul li a {
+    padding: 5px;
+    border-bottom: #444 dotted 1px;
+}
+
+/* Home info */
+#home-info .img-info {
+    display: none;
+}
+
+#home-info .info-content {
+    float: none;
+    width: 100%;
+}
+
+.box {
+    float: none;
+    width: 100%;
+}
+
+#sweet {
+    height: 100%;
+}
+
+#sweet .sweet-content {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+/* Sweet page */
+#about-info .info-right,
+#about-info .info-left {
+    float: none;
+    width: 100%;
+}
+.l-heading {
+    text-align: center;
+}
+
+#about-info .info-right {
+    margin-top: 20px;
+}
+
+/* contact page */
+#contact-info .box {
+    border-bottom: #444 dotted 1px;
+}
